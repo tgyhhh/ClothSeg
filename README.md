@@ -46,7 +46,6 @@ Predict.
 ```
 
 ## Extract edge pixels
-Predict.
 ``` bash
     python edge.py
 ```
