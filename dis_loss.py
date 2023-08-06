@@ -43,7 +43,6 @@ def distance_to_nearest_nonzero(a, b):
 class Label_Distance_Loss(nn.Module):
     def __init__(self):
         super(Label_Distance_Loss, self).__init__()
-        self.relu = nn.ReLU(inplace=True)
 
     def forward(self, x, label=None):
         prediction = x.argmax(1)  # (2,480,480)
