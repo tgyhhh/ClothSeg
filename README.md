@@ -1,7 +1,7 @@
 ## ClothSeg: Semantic Segmentation Network with Feature Projection for Clothing Parsing
 Code for ClothSeg
 
-## Abastract
+## Abstract
 Semantic segmentation of clothing presents a formidable challenge owing to the non-rigid geometric deformation properties inherent in garments. In this paper, we use the Transformer as the encoder to better learn global information for clothing semantic segmentation. In addition, we propose a Feature Projection Fusion (FPF) module to better utilize local information. This module facilitates the integration of deep feature maps with shallow local details, thereby enabling the network to capture both high-level abstractions and fine-grained details of features. We also design a pixel distance loss in training to emphasize the impact of edge features. This loss calculates the mean of the shortest distances between all predicted clothing edges and the true clothing edges during the training process. We perform extensive experiments and our method achieves 56.30\% and 74.97\% mIoU on the public dataset CFPD and our self-made dataset LIC, respectively, demonstrating a competitive performance when compared to the state-of-the-art.
 
 ## Preparations
